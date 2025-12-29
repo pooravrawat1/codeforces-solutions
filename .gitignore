@@ -1,0 +1,51 @@
+# C/C++ build artifacts
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.gch
+
+# Shared libraries
+*.so
+*.dll
+*.dylib
+
+# Executables
+*.exe
+*.out
+a.out
+*.stackdump
+
+# Codeforces local binaries
+sol
+*/sol
+
+# Build directories
+build/
+bin/
+dist/
+target/
+out/
+
+# Coverage and debug files
+*.gcda
+*.gcno
+*.dSYM/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Editor & IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS metadata
+.DS_Store
+Thumbs.db

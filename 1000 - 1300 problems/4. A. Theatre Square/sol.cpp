@@ -4,9 +4,9 @@ using namespace std;
 typedef long long ll;
 
 int main() {
-    int t;
-    cin >> t;
-    while (t--) {
-        
-    }
+    int n, m, a;
+    cin >> n >> m >> a;
+    ll res = (ll) ((n + a - 1) / a) * ((m + a - 1) / a);
+    cout << res << "\n";
+    return 0;
 }
